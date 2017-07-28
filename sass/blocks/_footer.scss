@@ -1,0 +1,43 @@
+.footer {
+	background: #2c6978;
+	color: #fff;
+	padding: 25px 0 35px;
+
+	.footer__wrapper {
+		@include min-max(320px, 1020px, 40px);
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.footer__logo {
+		font-size: 16px;
+		line-height: 20px;
+		font-family: tt_lakes_condensedbold;
+		position: relative;
+
+		&:after {
+			content: "";
+			width: 44px;
+			height: 3px;
+			position: absolute;
+			top: -8px;
+			left: 0;
+			background: #f05649;
+		}
+
+	}
+
+	.footer__address {
+		font-size: 16px;
+		line-height: 20px;
+		font-family: tt_lakes_condensedbold;
+		margin: 20px 0 10px;
+	}
+
+	.footer__copy {
+		font-size: 14px;
+		line-height: 20px;
+		font-family: robotobold_condensed;
+	}
+
+}

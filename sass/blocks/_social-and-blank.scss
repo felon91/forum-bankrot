@@ -1,0 +1,5 @@
+.social-and-blank {
+	@include min-max(320px, 1020px, 40px);
+	margin: 15px auto;
+	display: flex;
+}

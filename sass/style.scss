@@ -1,7 +1,23 @@
-$color_black: #2d2d2d;
+@charset "UTF-8";
 
-body {
-	background: #eee;
-	border-radius: 10px;
-	display: flex;
-}
+@import "_reset.scss";
+@import "_fonts.scss";
+@import "_mixins.scss";
+@import "_core.scss";
+
+@import "blocks/_header.scss";
+@import "blocks/_menu.scss";
+@import "blocks/_phone.scss";
+@import "blocks/_promo.scss";
+@import "blocks/_content.scss";
+@import "blocks/_free-question.scss";
+@import "blocks/_group.scss";
+@import "blocks/_banner.scss";
+@import "blocks/_fresh-questions.scss";
+@import "blocks/_statement.scss";
+@import "blocks/_fresh-news.scss";
+@import "blocks/_social-and-blank.scss";
+@import "blocks/_social.scss";
+@import "blocks/_blank.scss";
+@import "blocks/_blank-widget.scss";
+@import "blocks/_footer.scss";

@@ -1,0 +1,18 @@
+.social {
+	flex-basis: 65.9%;
+	margin-right: 20px;
+
+	.content__right {
+		flex-basis: 300px;
+	}
+	.social__title {
+		@include title();
+	}
+
+	.social__wrapper {
+		display: flex;
+		justify-content: space-between;
+		margin: 15px 0;
+	}
+
+}

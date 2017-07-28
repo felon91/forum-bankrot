@@ -1,0 +1,102 @@
+.group {
+	background: #e6e6e6;
+	padding: 12px 15px 17px;
+	margin: 15px 0;
+
+	.group__wrapper {
+		@include clearfix();
+	}
+
+	.group__title {
+		@include title();
+	}
+
+	.group__article {
+		width: 48.5%;
+		margin-right: 3%;
+		float: left;
+		margin: 15px 0;
+
+		a {
+			font-size: 18px;
+			color: #000;
+			text-decoration: none;
+			line-height: 25px;
+			font-family: robotocondensed;
+			margin: 5px 0;
+			display: inline-block;
+			background: url("../img/arrow.jpg") left 7px no-repeat;
+			padding-left: 14px;
+			hyphens: auto;
+
+			&:hover {
+				color: #ce9f3c;
+			}
+
+		}
+
+	}
+
+	.group__question {
+		width: 48.5%;
+		float: right;
+		margin: 7px 0 15px;
+	}
+
+	.group__element {
+		margin: 10px 0;
+
+		p {
+			font-size: 14px;
+			line-height: 20px;
+			font-family: robotocondensed;
+			margin-top: 3px;
+		}
+
+		span {
+			color: #c05d7f;
+			margin-left: 20px;
+		}
+
+		a {
+			font-size: 18px;
+			line-height: 20px;
+			text-decoration: none;
+			color: #000;
+			font-family: robotocondensed;
+		}
+
+	}
+
+	p {
+		margin: 0;
+	}
+
+	.group__all-material {
+		font-size: 16px;
+		line-height: 20px;
+		border-bottom: 1px solid #c9c7c7;
+		color: #000;
+		text-decoration: none;
+		position: relative;
+		display: inline-block;
+		font-family: robotocondensed;
+
+		&:after {
+			content: "";
+			background: url("../img/all-arrow.png") right center no-repeat;
+			width: 19px;
+			height: 14px;
+			display: block;
+			position: absolute;
+			right: -33px;
+			top: 4px;
+		}
+
+		&:hover {
+			color: #ce9f3c;
+			border-bottom: 1px solid #f05649;
+		}
+	}
+
+}

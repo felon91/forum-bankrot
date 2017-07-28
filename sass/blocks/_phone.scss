@@ -1,0 +1,44 @@
+.phone {
+	flex-basis: 178px;
+	margin: auto 0;
+	
+	.phone__number {
+		font-family: tt_lakes_condensedbold;
+		font-size: 22px;
+		font-weight: normal;
+		letter-spacing: 0px;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	p {
+		font-size: 11px;
+		font-family: roboto_condensedlight;
+		color: #fff;
+		letter-spacing: 0.2px;
+	}
+
+}
+
+.phone-color {
+	
+	p, .phone__number {
+		color: #2c6978;
+	}
+
+}
+
+.phone-border {
+	position: relative;
+
+	&:after {
+		content: "";
+		width: 44px;
+		height: 3px;
+		position: absolute;
+		top: -8px;
+		right: 0;
+		background: #f05649;
+	}
+
+}

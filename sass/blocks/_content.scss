@@ -1,0 +1,43 @@
+.content {
+	@include min-max(320px, 1020px, 40px);
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+
+	.content__left {
+		flex-basis: 65.9%;
+		margin-right: 20px;
+	}
+
+	.content__right {
+		flex-basis: 300px;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-size: 24px;
+		line-height: 32px;
+		color: #000;
+		font-family: robotocondensed;
+		border-bottom: 1px solid #c9c7c7;
+		display: inline-block;
+		position: relative;
+
+		&:before {
+			background: #f05649;
+			width: 44px;
+			height: 3px;
+			position: absolute;
+			bottom: -1px;
+			left: 0;
+			content: "";
+		}
+
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 25px;
+		margin: 10px 0 25px;
+	}
+
+}

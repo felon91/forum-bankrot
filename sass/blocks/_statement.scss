@@ -1,0 +1,34 @@
+.statement {
+	text-align: center;
+	color: #fff;
+	background: url("../img/statement-bg.jpg") no-repeat;
+	background-size: cover;
+	padding: 27px 0 32px;
+	box-sizing: border-box;
+	margin: 30px 0;
+
+	.statement__title {
+		font-size: 28px;
+		line-height: 30px;
+		font-family: robotobold_condensed;
+		
+	}
+
+	p {
+		margin: 0;
+		font-size: 22px;
+		line-height: 30px;
+		font-family: robotobold_condensed;
+	}
+
+	img {
+		margin: 15px 0 5px;
+	}
+
+	a {
+		@include red-button();
+		display: block;
+		margin: 25px auto 0;
+	}
+
+}

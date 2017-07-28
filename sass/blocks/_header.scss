@@ -1,0 +1,36 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	@include min-max(320px, 1020px, 40px);
+	padding-top: 15px;
+	padding-bottom: 12px;
+
+	.header__menu-width {
+		width: 35%;
+		margin: auto 0;
+	}
+
+	.header__button {
+		flex-basis: 140px;
+		margin: auto 0;
+
+		a {
+			font-size: 18px;
+			line-height: 18px;
+			padding: 4px 0 7px;
+			font-family: robotocondensed;
+			color: #f05649;
+			border: 2px solid #f05649;
+			text-decoration: none;
+			display: block;
+			text-align: center;
+		}
+
+	}
+
+	.header__logo {
+		margin: auto 0;
+	}
+
+}

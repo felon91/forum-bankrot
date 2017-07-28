@@ -1,0 +1,38 @@
+.fresh-questions {
+	margin: 0 0 30px 0;
+
+	.fresh-questions__title {
+		@include title();
+	}
+
+	.fresh-questions__element {
+		margin: 10px 0 15px;
+	}
+
+	a {
+		font-size: 18px;
+		line-height: 20px;
+		text-decoration: none;
+		color: #000;
+		font-family: robotocondensed;
+
+		&:hover {
+			color: #ce9f3c;
+		}
+
+	}
+
+	p {
+	    font-size: 14px;
+	    line-height: 20px;
+	    font-family: robotocondensed;
+	    margin: 0;
+	    margin-top: 3px;
+	}
+
+	span {
+		color: #c05d7f;
+    	margin-left: 20px;
+	}
+
+}

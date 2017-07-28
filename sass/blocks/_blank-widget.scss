@@ -1,0 +1,30 @@
+.blank-widget {
+	background: url("../img/blank-bg.jpg") no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	padding: 27px 0 32px;
+
+	.blank-widget__title {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 20px;
+		font-family: robotobold_condensed;
+		margin: 7px 0;
+	}
+
+	img {
+		margin: 12px 0 28px;
+	}
+
+	a {
+		@include red-button();
+		display: block;
+		margin: 0 auto;
+	}
+
+}
