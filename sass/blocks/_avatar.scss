@@ -1,0 +1,18 @@
+.avatar {
+	display: flex;
+	margin: 20px 0;
+	
+	.avatar__user {
+		width: 50px;
+		height: 50px;
+	}
+
+	p {
+		font-size: 14px;
+    	color: #b2b1b1;
+   		font-family: robotoregular;
+   		margin: 0 0 0 15px;
+   		align-self: center;
+	}
+
+}
