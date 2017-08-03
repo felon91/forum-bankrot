@@ -25,6 +25,15 @@
 		@include red-button();
 		display: block;
 		margin: 0 auto;
+
+		&:hover {
+			color: #fff;
+		}
+
 	}
 
+}
+
+.blank-widget-margin {
+	margin: 30px 0;
 }

@@ -1,0 +1,64 @@
+.urist {
+	
+	.urist__title {
+		@include title();
+	}
+
+	.urist__element {
+		margin: 20px 0;
+		overflow: hidden;
+	}
+
+	img {
+		display: block;
+	}
+
+	a {
+		border-bottom: none;
+		float: left;
+	}
+
+	.urist__text {
+		margin-left: 240px;
+
+		a {
+			border-bottom: 1px solid #f05649;
+			float: none;
+			font-size: 18px;
+			line-height: 25px;
+			display: inline-block;
+			margin-top: -5px;
+			font-family: robotoregular;
+			font-weight: bold;
+		}
+
+	}
+
+	p {
+		font-family: 16px;
+		line-height: 20px;
+		font-faily: robotoregular;
+		margin: 10px 0 0 0;
+	}
+
+}
+
+@media (max-width: 640px) {
+	
+	.urist {
+
+		a {
+			float: none;
+		}
+
+		img {
+			margin: 0 auto 15px;
+		}
+
+		.urist__text {
+			margin-left: 0;
+		}
+
+	}
+
+}

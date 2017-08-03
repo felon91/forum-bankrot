@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Заголовок</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script src="js/jquery.js"></script>
+	<script defer src="js/svg.js"></script>
+	<script src="js/classList.js"></script>
+	<script defer src="js/script.js"></script>
+
+	<!-- 1. Add latest jQuery and fancyBox files -->
+
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+	<div class="opacity"></div>
+	<header>
+		<div class="header">
+			<div class="header__logo">
+				<a href="#">
+					<img src="img/logo.png" width="251" alt="">
+				</a>
+			</div>
+			<div class="header__menu header__menu-width">
+				<div class="hamburger">
+				  <span class="hamburger__global hamburger__top"></span>
+				  <span class="hamburger__global hamburger__middle"></span>
+				  <span class="hamburger__global hamburger__bottom"></span>
+				</div>
+				<ul class="menu menu-top">
+					<li class="menu__item">
+						<a href="#">Форум</a>
+					</li>
+					<li class="menu__item menu__item-parent">
+						<a href="#">Информация</a>
+						<ul class="menu__children">
+							<li>
+								<a href="#">Инструкция по банкротству</a>
+							</li>
+							<li>
+								<a href="#">Процедура банкротства</a>
+							</li>
+							<li>
+								<a href="#">Закон о банкротсве физлиц</a>
+							</li>
+							<li>
+								<a href="#">Упрощенное банкротства</a>
+							</li>
+							<li>
+								<a href="#">Последствия банкротства</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a href="#">Новости</a>
+					</li>
+				</ul>
+			</div>
+			<div class="phone phone-color">
+				<a class="phone__number" href="tel:88002007862">8 800 200 78 62</a>
+				<p>бесплатный звонок и консультация</p>
+			</div>
+			<div class="header__button">
+				<a href="#">задать вопрос</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="breadcrumbs">
+		<p>
+			<a href="#">Главная</a>
+			<img src="img/breadcrumbs-arrow.jpg" alt="">
+			<a href="#">Новости</a>
+			<img src="img/breadcrumbs-arrow.jpg" alt="">
+			<span>Известный бизнесмен обратился в Арбитраж за признанием банкротства</span>
+		</p>
+	</div>
+
+	<div class="content">
+		<div class="content__left">
+			<h1>Может ли суд ограничить выезд за границу из-за банкротства?</h1>
+
+			<p>Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти. Декрет заканчивается в октябре 2018 г.. У меня есть 3 кредита. Могу ли я попросить отсрочку платежа по самому основному кредиту у банка? Если это возможно то подскажите, что нужно делать? Спасибо.</p>
+
+			<div class="line"></div>
+
+			<div class="tags">
+				<a href="#">#подготовка к банкротству</a>
+				<a href="#">#имущество при банкротстве</a>
+				<a href="#">#ипотека и банкротство</a>
+			</div>
+
+			<div class="comments">
+				<img src="img/comments.jpg" width="620" alt="">
+			</div>
+
+			<div class="free-question">
+				<svg class="close">
+					<use xlink:href="img/symbols.svg#close" />
+		        </svg>
+				<p class="free-question__title">Ваш бесплатный вопрос по банкротству физлица</p>
+				<form>
+					<textarea placeholder="Текст вашего вопроса"></textarea>
+					<div class="free-question__bottom">
+						<p>Если Вам трудно сформулировать вопрос — позвоните по бесплатному многоканальному телефону <a href="tel:88002007862">8 800 200-78-62</a>, юрист Вам поможет</p>
+						<button>Задать вопрос</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="other-issues">
+				<p class="other-issues__title">Другие вопросы по теме</p>
+				<div class="other-issues__element">
+					<a href="#">Может ли суд ограничить выезд за границу из-за банкротства?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Николай, Омск <span>2 ответа</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">У меня в собственности находится 1 квартира. Заберут ли ее за долги?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Ольга, Анапа <span>1 ответ</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">Квартира является совместно нажитым имуществом. Могут ли ее взыскать?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Иван, Москва <span>3 ответа</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">Может ли суд ограничить выезд за границу из-за банкротства?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Николай, Омск <span>2 ответа</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">У меня в собственности находится 1 квартира. Заберут ли ее за долги?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Ольга, Анапа <span>1 ответ</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">Квартира является совместно нажитым имуществом. Могут ли ее взыскать?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Иван, Москва <span>3 ответа</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">Может ли суд ограничить выезд за границу из-за банкротства?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Николай, Омск <span>2 ответа</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">У меня в собственности находится 1 квартира. Заберут ли ее за долги?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Ольга, Анапа <span>1 ответ</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">Квартира является совместно нажитым имуществом. Могут ли ее взыскать?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Иван, Москва <span>3 ответа</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">Может ли суд ограничить выезд за границу из-за банкротства?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Николай, Омск <span>2 ответа</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">У меня в собственности находится 1 квартира. Заберут ли ее за долги?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Ольга, Анапа <span>1 ответ</span></p>
+				</div>
+				<div class="other-issues__element">
+					<a href="#">Квартира является совместно нажитым имуществом. Могут ли ее взыскать?</a>
+					<p class="other-issues__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Иван, Москва <span>3 ответа</span></p>
+				</div>
+			</div>
+
+			<div class="pagination">
+				<ul>
+					<li class="pagination__element pagination__element-active">
+						<a href="#">1</a>
+					</li>
+					<li class="pagination__element">
+						<a href="#">2</a>
+					</li>
+					<li class="pagination__element">
+						<a href="#">3</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="urist">
+				<p class="urist__title">Советы юристов по теме</p>
+				<div class="urist__element">
+					<a href="#">
+						<img src="img/img.jpg" width="220" alt="">
+					</a>
+					<div class="urist__text">
+						<a href="#" class="urist__href">Как подготовиться к банкротству?</a>
+						<p>Приведите в порядок свои финансовые дела. Необходимо составить список всех кредиторов и долгов. Важно: под кредиторами для целей банкротства признаются не только банки и микрофинансовые организации.</p>
+					</div>
+				</div>
+				<div class="urist__element">
+					<a href="#">
+						<img src="img/img-2.jpg" width="220" alt="">
+					</a>
+					<div class="urist__text">
+						<a href="#" class="urist__href">Какие документы нужно собрать?</a>
+						<p>При подаче заявления о банкротстве необходимо предоставить перечень документов, предусмотренных законом о банкротстве. Со списком таких документов можно ознакомиться в этой статье.</p>
+					</div>
+				</div>
+				<div class="urist__element">
+					<a href="#">
+						<img src="img/img.jpg" width="220" alt="">
+					</a>
+					<div class="urist__text">
+						<a href="#" class="urist__href">Как подготовиться к банкротству?</a>
+						<p>Приведите в порядок свои финансовые дела. Необходимо составить список всех кредиторов и долгов. Важно: под кредиторами для целей банкротства признаются не только банки и микрофинансовые организации.</p>
+					</div>
+				</div>
+				<div class="urist__element">
+					<a href="#">
+						<img src="img/img.jpg" width="220" alt="">
+					</a>
+					<div class="urist__text">
+						<a href="#" class="urist__href">Какие документы нужно собрать?</a>
+						<p>При подаче заявления о банкротстве необходимо предоставить перечень документов, предусмотренных законом о банкротстве. Со списком таких документов можно ознакомиться в этой статье.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="pagination">
+				<ul>
+					<li class="pagination__element pagination__element-active">
+						<a href="#">1</a>
+					</li>
+					<li class="pagination__element">
+						<a href="#">2</a>
+					</li>
+					<li class="pagination__element">
+						<a href="#">3</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="content__right">
+			<div class="fresh-questions">
+				<p class="fresh-questions__title">Свежие вопросы</p>
+				<div class="fresh-questions__element">
+					<a href="#">Может ли суд ограничить выезд за границу из-за банкротства?</a>
+					<p class="fresh-questions__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Николай, Омск <span>2 ответа</span></p>
+				</div>
+				<div class="fresh-questions__element">
+					<a href="#">У меня в собственности находится 1 квартира. Заберут ли ее за долги?</a>
+					<p class="fresh-questions__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Ольга, Анапа <span>1 ответ</span></p>
+				</div>
+				<div class="fresh-questions__element">
+					<a href="#">Квартира является совместно нажитым имуществом. Могут ли ее взыскать?</a>
+					<p class="fresh-questions__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Иван, Москва <span>3 ответа</span></p>
+				</div>
+				<div class="fresh-questions__element">
+					<a href="#">Может ли суд ограничить выезд за границу из-за банкротства?</a>
+					<p class="fresh-questions__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Николай, Омск <span>2 ответа</span></p>
+				</div>
+				<div class="fresh-questions__element">
+					<a href="#">У меня в собственности находится 1 квартира. Заберут ли ее за долги?</a>
+					<p class="fresh-questions__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Ольга, Анапа <span>1 ответ</span></p>
+				</div>
+				<div class="fresh-questions__element">
+					<a href="#">Квартира является совместно нажитым имуществом. Могут ли ее взыскать?</a>
+					<p class="fresh-questions__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Иван, Москва <span>3 ответа</span></p>
+				</div>
+				<div class="fresh-questions__element">
+					<a href="#">Может ли суд ограничить выезд за границу из-за банкротства?</a>
+					<p class="fresh-questions__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Николай, Омск <span>2 ответа</span></p>
+				</div>
+				<div class="fresh-questions__element">
+					<a href="#">У меня в собственности находится 1 квартира. Заберут ли ее за долги?</a>
+					<p>Ольга, Анапа <span>1 ответ</span></p>
+				</div>
+				<div class="fresh-questions__element">
+					<a href="#">Квартира является совместно нажитым имуществом. Могут ли ее взыскать?</a>
+					<p class="fresh-questions__text">Я мать одиночка. Меня сын 1,8 мес. Я нахожуь в декрете т.к. мой ребенок по сотоянию здоровья не может ходить в д. сад. следовательно на работу я не могу выйти...</p>
+					<p>Иван, Москва <span>3 ответа</span></p>
+				</div>
+			</div>
+			<div class="statement">
+				<p class="statement__title">Заявление<br />о банкротстве</p>
+				<img src="img/notepad.png" width="64" alt="">
+				<p>бесплатный online-сервис</p>
+				<a href="#">Составить заявление</a>
+			</div>
+
+			<div class="blank-widget blank-widget-margin">
+				<p class="blank-widget__title">Бланки документов</p>
+				<p>для подачи заявления о банкротстве</p>
+				<img src="img/paper.png" width="73" alt="">
+				<a href="#">Получить бесплатно</a>
+			</div>
+
+		</div>
+	</div>
+	<footer>
+		<div class="footer">
+			<div class="footer__wrapper">
+				<div class="footer__left">
+					<p class="footer__logo">ВСЕРОССИЙСКИЙ ФОРУМ<br />О БАНКРОТСТВЕ<br />ФИЗИЧЕСКИХ ЛИЦ</p>
+					<p class="footer__address">119021, г. Москва, Оболенский пер., дом 9/5, корп.6</p>
+					<p class="footer__copy">&copy; Копирование материалов возможно только с письменного<br />разрешения</p>
+				</div>
+				<div class="footer__right">
+					<div class="phone phone-border">
+						<a class="phone__number" href="tel:88002007862">8 800 200 78 62</a>
+						<p>бесплатный звонок и консультация</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

@@ -15,7 +15,7 @@ var del = require("del");
 
 gulp.task('js', function() {
 	return gulp.src('js/**/*.js')
-		.pipe(gulp.dest("build/js/**"))
+		.pipe(gulp.dest("build/js/"))
 		.pipe(browserSync.reload({stream: true}));
 });
 
@@ -62,18 +62,6 @@ gulp.task("serve", function() {
 
 });
 
-// gulp.task('serve', function () {
-
-//     // Serve files from the root of this project
-//     browserSync.init({
-//         server: {
-//             baseDir: "build"
-//         }
-//     });
-
-//     gulp.watch("*.html").on("change", browserSync.reload);
-// });
-
 gulp.task("symbols", function() {
   return gulp.src("build/img/icons/*.svg") .pipe(svgmin())
 	.pipe(svgstore({
@@ -114,6 +102,7 @@ gulp.task("build", function(fn) {
     	"copy",
     	"sass",
 		"images",
+		"symbols",
 		fn
 	); 
 });

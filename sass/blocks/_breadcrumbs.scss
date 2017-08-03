@@ -1,0 +1,31 @@
+.breadcrumbs {
+	@include min-max(320px, 1020px, 40px);
+	margin: 10px auto 20px;
+	
+	p {
+		font-size: 16px;
+		line-height: 20px;
+		font-family: robotocondensed;
+	}
+
+	a {
+		color: #000;
+		text-decoration: none;
+		border-bottom: 1px solid #f05649;
+
+		&:hover {
+			border: none;
+		}
+
+	}
+
+}
+
+@media (max-width: 960px) {
+	
+	.breadcrumbs {
+		padding: 0 20px;
+	}
+
+
+}

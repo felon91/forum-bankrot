@@ -28,6 +28,7 @@
 			background: url("../img/arrow.jpg") left 7px no-repeat;
 			padding-left: 14px;
 			hyphens: auto;
+			border-bottom: none;
 
 			&:hover {
 				color: #ce9f3c;
@@ -51,6 +52,7 @@
 			line-height: 20px;
 			font-family: robotocondensed;
 			margin-top: 3px;
+			color: #414141;
 		}
 
 		span {
@@ -64,9 +66,26 @@
 			text-decoration: none;
 			color: #000;
 			font-family: robotocondensed;
+			margin-bottom: 3px;
+			display: inline-block;
+			border-bottom: none;
+
+			&:hover {
+				color: #ce9f3c;
+			}
+
+		}
+
+		.group__text {
+			font-size: 14px;
+			line-height: 18px;
+			font-family: robotoregular;
+			color: #000;
 		}
 
 	}
+
+
 
 	p {
 		margin: 0;
@@ -97,6 +116,26 @@
 			color: #ce9f3c;
 			border-bottom: 1px solid #f05649;
 		}
+	}
+
+}
+
+@media (max-width: 480px) {
+	
+	.group {
+
+		.group__article {
+			float: none;
+			width: 100%;
+			margin-right: 0;
+		}
+
+		.group__question {
+			float: none;
+			width: 100%;
+			margin: 15px 0;
+		}
+
 	}
 
 }

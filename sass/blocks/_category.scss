@@ -1,18 +1,6 @@
-.content {
-	@include min-max(320px, 1020px, 40px);
+.category {
+	@include min-max(280px, 1020px, 40px);
 	margin: 20px auto;
-	display: flex;
-	justify-content: space-between;
-
-	.content__left {
-		flex-basis: 65.9%;
-		margin-right: 20px;
-	}
-
-	.content__right {
-		flex-basis: 300px;
-		max-width: 300px;
-	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-size: 24px;
@@ -68,6 +56,7 @@
 		font-size: 16px;
 		line-height: 25px;
 		margin: 10px 0 22px;
+		color: #616060;
 
 		+ ul, + ol {
 			margin-top: -15px;
@@ -263,7 +252,7 @@
 
 @media (max-width: 960px) {
 	
-	.content {
+	.category {
 		padding: 0 20px;
 	}
 
@@ -271,27 +260,16 @@
 
 @media (max-width: 800px) {
 	
-	.content {
+	.category {
 		flex-direction: column;
 		margin-bottom: 0;
-
-		.content__left {
-			flex-basis: auto;
-			margin-right: 0;
-		}
-
-		.content__right {
-			flex-basis: auto;
-			max-width: 100%;
-		}
-
 	}
 
 }
 
 @media (max-width: 560px) {
 	
-	.content {
+	.category {
 
 		table {
 			min-width: 500px;

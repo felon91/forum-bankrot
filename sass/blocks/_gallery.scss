@@ -1,0 +1,53 @@
+.gallery {
+	margin: 20px 0;
+	
+	p {
+		color: #b2b1b1;
+		font-size: 14px;
+		font-family: robotoregular;
+		margin: 0;
+	}
+
+	a {
+		border: none;
+		outline: none;
+		display: block;
+		position: relative;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		&:before {
+			background: url('../img/zoom.png') center no-repeat;
+			width: 25px;
+			height: 25px;
+			content: "";
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin: -12.5px 0 0 -12.5px;
+			opacity: 0;
+			transition: all 0.5s;
+		}
+
+		&:hover:before {
+			opacity: 1;
+		}
+
+	}
+
+}
+
+@media (max-width: 800px) {
+	
+	.gallery {
+
+		img {
+			width: 100%;
+		}
+
+	}
+
+}

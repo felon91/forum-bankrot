@@ -32,3 +32,62 @@
 	}
 
 }
+
+@media (max-width: 780px) {
+	
+	.promo {
+
+		h1 {
+			font-size: 56px;
+			line-height: 40px;
+		}
+
+		.promo-fs68 {
+			font-size: 48px;
+		}
+
+		.promo-fs65 {
+			font-size: 45px;
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 22px;
+			
+			br {
+				display: none;
+			}
+
+		}
+
+	}
+
+}
+
+@media (max-width: 480px) {
+	
+	.promo {
+
+		h1 {
+			font-size: 46px;
+			line-height: 30px;
+			padding: 0 15px;
+		}
+
+		.promo-fs68 {
+			font-size: 38px;
+		}
+
+		.promo-fs65 {
+			font-size: 35px;
+		}
+
+		p {
+			font-size: 16px;
+			line-height: 20px;
+			padding: 0 15px;
+		}
+
+	}
+
+}

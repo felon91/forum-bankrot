@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Заголовок</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script src="js/jquery.js"></script>
+	<script defer src="js/svg.js"></script>
+	<script src="js/classList.js"></script>
+	<script defer src="js/script.js"></script>
+
+	<!-- 1. Add latest jQuery and fancyBox files -->
+
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+
+	<script src="js/mask.js"></script>
+
+</head>
+<body>
+<div class="container">
+	<div class="opacity"></div>
+	<header>
+		<div class="header">
+			<div class="header__logo">
+				<a href="#">
+					<img src="img/logo.png" width="251" alt="">
+				</a>
+			</div>
+			<div class="header__menu header__menu-width">
+				<div class="hamburger">
+				  <span class="hamburger__global hamburger__top"></span>
+				  <span class="hamburger__global hamburger__middle"></span>
+				  <span class="hamburger__global hamburger__bottom"></span>
+				</div>
+				<ul class="menu menu-top">
+					<li class="menu__item">
+						<a href="#">Форум</a>
+					</li>
+					<li class="menu__item menu__item-parent">
+						<a href="#">Информация</a>
+						<ul class="menu__children">
+							<li>
+								<a href="#">Инструкция по банкротству</a>
+							</li>
+							<li>
+								<a href="#">Процедура банкротства</a>
+							</li>
+							<li>
+								<a href="#">Закон о банкротсве физлиц</a>
+							</li>
+							<li>
+								<a href="#">Упрощенное банкротства</a>
+							</li>
+							<li>
+								<a href="#">Последствия банкротства</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a href="#">Новости</a>
+					</li>
+				</ul>
+			</div>
+			<div class="phone phone-color">
+				<a class="phone__number" href="tel:88002007862">8 800 200 78 62</a>
+				<p>бесплатный звонок и консультация</p>
+			</div>
+			<div class="header__button">
+				<a href="#">задать вопрос</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="breadcrumbs">
+		<p>
+			<a href="#">Главная</a>
+			<img src="img/breadcrumbs-arrow.jpg" alt="">
+			<a href="#">Новости</a>
+			<img src="img/breadcrumbs-arrow.jpg" alt="">
+			<span>Известный бизнесмен обратился в Арбитраж за признанием банкротства</span>
+		</p>
+	</div>
+
+	<div class="form">
+		<div class="form__wrapper">
+			<p class="form__title">Ваш бесплатный вопрос по банкротству физлица</p>
+			<div class="form__items">
+				<div class="form__left">
+					<p>Если Вам трудно сформулировать вопрос — позвоните по бесплатному многоканальному<br /> телефону <a href="tel:88002007862">8 800 200-78-62</a>, юрист Вам поможет</p>
+					<form>
+						<div class="form__element">
+							<label for="what">Суть вопроса<span>*</span></label>
+							<textarea id="what" placeholder="Кратко опишите вашу ситуацию"></textarea>
+						</div>
+						<div class="form__element">
+							<label for="title">Заголовок вопроса<span>*</span></label>
+							<input id="title" type="text" name="title" placeholder="Например: «Можно ли выезжать за границу во время процедуры банкротства»">
+						</div>
+						<div class="form__element">
+							<label for="phone">Телефон</label>
+							<input id="phone" type="text" name="title" placeholder="+7 (___) ___-__-__">
+						</div>
+						<div class="form__element">
+							<label for="name">Как к вам обращаться</label>
+							<input id="name" type="text" name="title">
+						</div>
+						<div class="form__element">
+							<button type="submit">Спросить</button>
+						</div>
+					</form>
+				</div>
+				<div class="form__right">
+					<ul>
+						<li>Поля, помеченные знаком «*», обязательны к заполнению.</li>
+						<li>Мы не передаем информацию третьим лицам.</li>
+						<li>Размещая на сайте вопрос, Вы соглашаетесь с <a href="#">Правилами сайта</a> и даёте <a href="#">согласие на обработку</a> персональных данных</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer">
+			<div class="footer__wrapper">
+				<div class="footer__left">
+					<p class="footer__logo">ВСЕРОССИЙСКИЙ ФОРУМ<br />О БАНКРОТСТВЕ<br />ФИЗИЧЕСКИХ ЛИЦ</p>
+					<p class="footer__address">119021, г. Москва, Оболенский пер., дом 9/5, корп.6</p>
+					<p class="footer__copy">&copy; Копирование материалов возможно только с письменного<br />разрешения</p>
+				</div>
+				<div class="footer__right">
+					<div class="phone phone-border">
+						<a class="phone__number" href="tel:88002007862">8 800 200 78 62</a>
+						<p>бесплатный звонок и консультация</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

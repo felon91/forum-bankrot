@@ -41,3 +41,19 @@
 	}
 
 }
+
+@media (max-width: 640px) {
+	
+	.footer {
+		
+		.footer__wrapper {
+			flex-direction: column;
+		}
+
+		.footer__left {
+			margin-bottom: 20px;
+		}
+
+	}
+
+}

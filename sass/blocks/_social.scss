@@ -15,4 +15,38 @@
 		margin: 15px 0;
 	}
 
+	.social__vk-margin, .social__fb-margin, .socail__ok-margin {
+		margin: 30px 0;
+	}
+
+}
+
+@media (max-width: 880px) {
+	
+	.social {
+
+		.social__wrapper {
+			display: none;
+		}
+
+	}
+
+}
+
+@media (max-width: 800px) {
+	
+	.social {
+		flex-basis: auto;
+		flex-direction: column;
+
+		.social__wrapper {
+			display: none;
+		}
+
+		.social__vk, .social__fb, .social__ok {
+			display: none;
+		}
+
+	}
+
 }

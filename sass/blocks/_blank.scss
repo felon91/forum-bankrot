@@ -1,3 +1,11 @@
 .blank {
 	flex-basis: 300px;
 }
+
+@media (max-width: 800px) {
+	
+	.blank {
+		flex-basis: auto;
+	}
+
+}

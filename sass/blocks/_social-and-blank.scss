@@ -3,3 +3,19 @@
 	margin: 15px auto;
 	display: flex;
 }
+
+@media (max-width: 960px) {
+
+	.social-and-blank {
+		padding: 0 20px;
+	}
+
+}
+
+@media (max-width: 800px) {
+	
+	.social-and-blank {
+		flex-direction: column;
+	}
+
+}

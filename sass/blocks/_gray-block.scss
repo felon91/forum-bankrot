@@ -1,0 +1,22 @@
+.gray-block {
+	background: #e6e6e6;
+	padding: 1px 0;
+	margin-top: 20px;
+
+	.gray-block-wrapper {
+		@include min-max(280px, 1020px, 40px);
+	}
+
+}
+
+@media (max-width: 960px) {
+	
+	.gray-block {
+
+		.gray-block-wrapper {
+			padding: 0 20px;
+		}
+
+	}
+
+}

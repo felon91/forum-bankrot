@@ -1,0 +1,169 @@
+.form {
+	background: #e6e6e6;
+
+	.form__wrapper {
+		@include min-max(320px, 1020px, 40px);
+		margin: 0 auto;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+
+	.form__items {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.form__title {
+		@include title();
+	}
+
+	.form__left {
+		flex-basis: 65.9%;
+		margin-right: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.form__right {
+		flex-basis: 300px;
+		max-width: 300px;
+		margin-top: 75px;
+		margin-bottom: 10px;
+	}
+
+	p {
+		font-size: 14px;
+		font-family: robotocondensed;
+		line-height: 16px;
+		margin-bottom: 20px;
+	}
+
+	a {
+		color: #2c6978;
+		font-size: 16px;
+		text-decoration: none;
+	}
+
+	label {
+		font-size: 18px;
+		line-height: 20px;
+		color: #000;
+		font-family: robotoregular;
+		cursor: pointer;
+	}
+
+	span {
+		color: #f05649;
+	}
+
+	textarea[placeholder], input[placeholder] {
+		color: #7f7575;
+	}
+
+	textarea, input {
+		width: 100%;
+		background: #fff;
+		resize: none;
+		width: 100%;
+		height: 150px;
+		box-sizing: border-box;
+		color: #7f7575;
+		font-size: 14px;
+		font-family: robotoregular;
+		border: none;
+		padding: 10px 15px;
+		outline: none;
+		margin: 8px 0 0 0;
+		box-shadow: inset 1px 1px 3px rgba(0,0,0,.35);
+	}
+
+	input {
+		height: auto;
+		padding: 6px 15px;
+	}
+
+	.form__element {
+		margin: 10px 0;
+	}
+
+	button {
+		@include red-button();
+		float: right;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+
+	ul {
+		margin: 15px 0 15px 18px;
+
+		li {
+			font-size: 16px;
+			line-height: 18px;
+			margin: 17px 0;
+			font-family: robotoregular;
+
+			&:before {
+				content: '';
+				float: left;
+				width: 15px;
+				height: 9px;
+				border-bottom: 2px solid #f05649;
+				margin-left: -18px;
+				margin-right: 5px;
+			}
+			
+		}
+
+		a {
+			text-decoration: none;
+			border-bottom: 1px solid #f05649;
+			color: #000;
+			font-family: robotocondensed;
+			line-height: 16px;
+			display: inline-block;
+
+			&:hover {
+				color: #ce9f3c;
+			}
+
+		}
+
+	}
+
+}
+
+@media (max-width: 960px) {
+	
+	.form {
+			
+		.form__wrapper {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+	}
+
+}
+
+@media (max-width: 640px) {
+	
+	.form {
+			
+		.form__items {
+			flex-direction: column;
+		}
+
+		.form__left {
+			flex-basis: auto;
+			margin-right: 0;
+		}
+
+		.form__right {
+			flex-basis: auto;
+			max-width: 100%;
+			margin-top: 0;
+		}
+
+	}
+
+}

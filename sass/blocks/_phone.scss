@@ -1,6 +1,7 @@
 .phone {
 	flex-basis: 178px;
 	margin: auto 0;
+	align-self: center;
 	
 	.phone__number {
 		font-family: tt_lakes_condensedbold;
@@ -39,6 +40,35 @@
 		top: -8px;
 		right: 0;
 		background: #f05649;
+	}
+
+}
+
+@media (max-width: 960px) {
+	
+	.phone {
+		flex-basis: auto;
+		margin-left: auto;
+	}
+
+}
+
+@media (max-width: 800px) {
+	
+	.phone {
+		margin: auto;
+	}
+
+}
+
+@media (max-width: 800px) {
+	
+	.phone-border {
+
+		&:after {
+			left: 0;
+		}
+
 	}
 
 }
